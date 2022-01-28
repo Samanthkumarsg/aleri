@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <header className='h-18 w-full border sticky top-0 bg-white'>
+        <header className='h-18 w-full border sticky top-0 bg-white '>
             <div className="container flex flex-wrap justify-between items-center mx-auto py-4">
                 <p className="flex">
                     <span className="self-center text-lg text-gray-800 font-semibold whitespace-nowrap dark:text-white"><span className='bg-gray-700 text-white p-2'>ಅಲೇರಿ</span> ಶ್ರೀ ಸತ್ಯಸಾರಮಾನಿ</span>
