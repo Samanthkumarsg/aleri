@@ -3,7 +3,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <header className='h-18 w-full border sticky top-0 bg-white '>
+        <header className='h-18 w-full border sticky top-0 bg-white z-10'>
             <div className="container flex flex-wrap justify-between items-center mx-auto py-4">
                 <p className="flex">
                     <span className="self-center text-lg text-gray-800 font-semibold whitespace-nowrap dark:text-white"><span className='bg-gray-700 text-white p-2'>ಅಲೇರಿ</span> ಶ್ರೀ ಸತ್ಯಸಾರಮಾನಿ</span>
@@ -23,7 +23,7 @@ function Header() {
                         <Link href="/">
                             <p className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" >Discover</p>
                         </Link>
-                        <Link href="/">
+                        <Link href="/events">
                             <p className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" >Events/News</p>
                         </Link>
                         <Link href="">
