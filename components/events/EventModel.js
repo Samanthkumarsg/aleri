@@ -7,7 +7,8 @@ function EventModel({ toggleHostEvent }) {
         var data = new FormData(event.target)
         let formObject = Object.fromEntries(data.entries())
         console.log(formObject);
-        window.open(`https://api.whatsapp.com/send/?phone=+919535485134&text=*Name :* ${formObject.name}%0a*Mobile :* ${formObject.mobile}%0a*Title :* ${formObject.title}%0a*Location :* ${formObject.location}%0a*Organisation Name :* ${formObject.organisationName}&app_absent=0`);
+        // window.open(`https://api.whatsapp.com/send/?phone=+919535485134&text=*Name :* ${formObject.name}%0a*Mobile :* ${formObject.mobile}%0a*Title :* ${formObject.title}%0a*Location :* ${formObject.location}%0a*Organisation Name :* ${formObject.organisationName}&app_absent=0`);
+        window.open(`mailto:vinodh.kokila143@gmail.com?subject=Requesting for event approval from Kaandakatada.com &body=Name : ${formObject.name}%0a Mobile : ${formObject.mobile}%0a Title : ${formObject.title}%0a Location : ${formObject.location}%0a Organisation Name : ${formObject.organisationName}`);
         toggleHostEvent();
     }
     return (
